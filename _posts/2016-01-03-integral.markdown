@@ -4,13 +4,49 @@ title:  "積分"
 date:   2016-01-03 0:00:00 +0900
 categories: 数学
 ---
-次の定積分を求めてみよう．正の整数$$n$$に対して
-
-$$
+$$0$$以上の整数$$n$$に対して定積分
+$$\displaystyle
 I_n = \int_0^\frac{\pi}{2}
 \sin^n\theta
-d\theta.
+d\theta
 $$
+を求めてみよう．
+
+
+部分積分の公式等より$$n\ge 2$$のとき
+
+$$
+\begin{eqnarray*}
+I_n &=& -\left[ \cos\theta\sin^{n-1}\theta \right]_0^\frac{\pi}{2}
++\int_0^\frac{\pi}{2}\left(n-1\right)\cos^2\theta\sin^{n-2}\theta d\theta\\
+&=& \left(n-1\right)\left( I_{n-2} - I_n\right).
+\end{eqnarray*}
+$$
+
+これを整理すると
+
+$$
+I_n = \frac{n-1}{n}I_{n-2}
+$$
+
 
 
 (続く)
+
+
+## 応用
+
+$$n\ge 1$$として定積分
+$$
+T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt
+$$
+を求めてみよう．
+
+$$t=\sqrt{n}\tan\theta$$とおくと
+
+$$
+T_n = \int_{-\frac{\pi}{2}}^\frac{\pi}{2}
+\cos^{n-1}\theta 
+d\theta
+=2 I_{n-1}
+$$
