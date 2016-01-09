@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "測度"
+date:   2016-01-05 0:00:00 +0900
+categories: 数学
+---
+$$X$$を集合とし，$$Y$$をその部分集合とする．
+$$m\left(Y\right)$$が定まっているとする．
+次の条件をみたすとき$$m$$を測度という．
+
++ 全ての$$Y\subset X$$に対して$$m\left(Y\right)\ge 0$$.
+
++ $$\phi$$を空集合として$$m\left(\phi\right)=0$$
+
++ $$Y_0,Y_1,\dots\subset X$$が互いに素なら
+$$\displaystyle
+m\left(\cup_{i=0}^\infty Y_i\right)=\sum_{i=0}^\infty m\left(Y_i\right)
+$$
