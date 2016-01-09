@@ -14,5 +14,5 @@ $$m\left(Y\right)$$が定まっているとする．
 
 + $$Y_0,Y_1,\dots\subset X$$が互いに素なら
 $$\displaystyle
-m\left(\cup_{i=0}^\infty Y_i\right)=\sum_{i=0}^\infty m\left(Y_i\right)
+m\left(\bigcup_{i=0}^\infty Y_i\right)=\sum_{i=0}^\infty m\left(Y_i\right)
 $$
