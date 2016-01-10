@@ -37,7 +37,7 @@ $$
 ## 応用
 
 $$n\ge 1$$として定積分
-$$
+$$\displaystyle
 T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt
 $$
 を求めてみよう．
@@ -45,8 +45,8 @@ $$
 $$t=\sqrt{n}\tan\theta$$とおくと
 
 $$
-T_n = \int_{-\frac{\pi}{2}}^\frac{\pi}{2}
+T_n = 2\sqrt{n}\int_{0}^\frac{\pi}{2}
 \cos^{n-1}\theta 
 d\theta
-=2 I_{n-1}
+=2\sqrt{n}I_{n-1}
 $$
