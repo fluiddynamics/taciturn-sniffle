@@ -15,7 +15,7 @@ $$\displaystyle R=\sum_{i=1}^n\left( y_i-\left( ax_i+b \right)\right)^2$$
 
 $$
 \begin{array}{ccl}
-a &=& \frac{\overline{xy}-\bar{x}\bar{y}}{\overline{x^2}-\overline{x}^2}\\
+a &=& \frac{\overline{xy}-n\bar{x}\bar{y}}{\overline{x^2}-n\overline{x}^2}\\
 b&=& -a\bar{x}+ \bar{y}
 \end{array}
 $$
