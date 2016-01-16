@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "三角関数のn乗の積分の変形"
+date:   2016-01-11 0:00:00 +0900
+categories: 数学
+---
+定積分の次の変形を説明する．
+
+$$
+T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt
+=2\sqrt{n}\int_{0}^\frac{\pi}{2}
+\cos^{n-1}\theta 
+d\theta
+$$
+
+$$n\ge 1$$なので$$t=\sqrt{n}\tan\theta$$とおくと
+
++ $$\displaystyle \int_{-\infty}^{\infty}$$は$$\displaystyle \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}$$になる．
++ $$\displaystyle dt=\frac{\sqrt{n}d\theta}{\cos^2\theta}$$，
++ $$\displaystyle \frac{t^2}{n}+1=\tan^2\theta+1=\frac{1}{\cos^2\theta}$$．
++ $$\displaystyle -\frac{2}{\pi}<\theta<\frac{2}{\pi}$$において
+$$0<\cos\theta$$なので
+$$\displaystyle \left(\frac{1}{\cos^2\theta}\right)^{-\frac{n+1}{2}}
+=\cos^{n+1}\theta$$.
+
+以上より
+$$\displaystyle T_n = 
+\int_{-\frac{\pi}{2}}^\frac{\pi}{2}\cos^{n-1}\theta\sqrt{n}d\theta.$$
+
+さらに被積分が偶関数なので
+$$T_n = 2\sqrt{n}\int_0^\frac{\pi}{2}\cos^{n-1}\theta d\theta$$
+となる．
