@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "スターリングの公式"
+date:   2016-01-18 0:00:00 +0900
+categories: 数学
+---
+$$\Gamma$$関数について，次の公式が成り立つ．
+
+$$
+\lim_{x\rightarrow \infty}\frac{
+\Gamma\left(x\right)}{
+\sqrt{2\pi}x^{x-\frac{1}{2}}e^{-x}
+}=1
+$$
+
+
+## 証明
+（続く）
