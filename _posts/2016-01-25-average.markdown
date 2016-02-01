@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "平均値の定理"
+date:   2016-01-25 0:00:00 +0900
+categories: 数学
+---
+$$f\left(x\right)$$を微分可能な関数とする．$$a<b$$とする．
+このとき$$a<c<b$$と$$f'\left(c\right)=
+\frac{f\left(b\right)-f\left(a\right)}{b-a}$$を満たす$$c$$が存在する．
+
+## 証明
+
+$$\phi\left(x\right)=f\left(x\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}x$$
+とおくと，$$\phi\left(x\right)$$は微分可能である．
+
+また$$\phi\left(b\right)-\phi\left(a\right)=
+f\left(b\right)-f\left(a\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}
+\left(b-a\right)=0
+$$
+なので$$\phi\left(b\right)=\phi\left(a\right)$$である．
+
+ここで$$a<c<b$$かつ$$\phi'\left(c\right)=0$$を満たす$$c$$が存在する．
+
+この$$c$$は
+$$\phi'\left(c\right)=f'\left(c\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}
+=0$$
+を満たす．
