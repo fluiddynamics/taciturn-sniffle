@@ -13,13 +13,13 @@ $$
 2項定理より次のように展開する
 
 $$
-a_n=\sum_{k=0}^{n}\left(n/k \right)t^k.
+a_n=\sum_{k=0}^{n}\binom{n}{k}t^k.
 $$
 
 ここで$$k$$を固定した時の極限
 
 $$
-\lim_{n\rightarrow \infty}\left(n/k \right)=
+\lim_{n\rightarrow \infty}\binom{n}{k}=
 \frac{1}{k!}
 $$
 
@@ -28,7 +28,7 @@ $$
 $$
 \lim_{n\rightarrow \infty}
 \left(1+\frac{t}{n}\right)^n=\lim_{n\rightarrow \infty}
-\sum_{k=0}^{n}\left(n/k \right)t^k
+\sum_{k=0}^{n}\binom{n}{k}t^k
 =\sum_{k=0}^{\infty}\frac{1}{k!}t^k=e^t
 $$
 
