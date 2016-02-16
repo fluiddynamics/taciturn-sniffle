@@ -10,8 +10,8 @@ $$\frac{d}{dx}\sin x=\cos x$$であり
 $$\frac{d}{dx}\cos x=-\sin x$$である．
 
 $$f\left(x\right)=\sin x$$とおくと
-$$f\left(x\right)=0,f'\left(x\right)=1,
-f''\left(x\right)=0,f'''\left(x\right)=-1,\dots
+$$f\left(0\right)=0,f'\left(0\right)=1,
+f''\left(0\right)=0,f'''\left(0\right)=-1,\dots
 $$が得られる．
 
 $$\sin x$$のテイラー展開は以下のように求まる．

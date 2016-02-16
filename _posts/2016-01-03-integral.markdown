@@ -31,7 +31,7 @@ $$
 
 
 
-(続く)
+[(続く)](/didactic-hockeypuck{% post_url /2016-02-01-integral %})
 
 
 ## 応用
@@ -46,7 +46,7 @@ $$t=\sqrt{n}\tan\theta$$とおくと
 
 $$
 T_n = 2\sqrt{n}\int_{0}^\frac{\pi}{2}
-\cos^{n-1}\theta 
+\cos^{n-1}\theta
 d\theta
 =2\sqrt{n}I_{n-1}
 $$

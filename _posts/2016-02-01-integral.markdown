@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "積分"
+date:   2016-02-01 0:00:00 +0900
+categories: 数学
+---
+$$0$$以上の整数$$n$$に対して定積分
+$$\displaystyle
+I_n = \int_0^\frac{\pi}{2}
+\sin^n\theta
+d\theta
+$$
+とおく．つぎの等式を示す．
+
+$$I_n=\left\{
+\begin{array}{ll}\displaystyle
+\frac{n-1}{n}\frac{n-3}{n-2}\frac{n-5}{n-4}\cdots
+\frac{5}{6}\frac{3}{4}\frac{1}{2}
+\frac{\pi}{2}
+&
+\left(n:偶数\right)
+\\\displaystyle
+\frac{n-1}{n}\frac{n-3}{n-2}\frac{n-5}{n-4}\cdots
+\frac{6}{7}\frac{4}{5}\frac{2}{3}
+&
+\left(n:奇数\right)
+\end{array}\right.
+$$
+
+## 証明
+
+[この記事](/didactic-hockeypuck{% post_url /2016-01-03-integral %})で，以下の関係を示した
+
+$$
+I_n = \frac{n-1}{n}I_{n-2}.
+$$
+
+これから
+
+$$
+I_n = \frac{n-1}{n}I_{n-2}
+=\frac{n-1}{n}\frac{n-2}{n-3}I_{n-4}
+=\cdots
+$$
+
+等になる．
+
+また，$$I_1=1$$
+（[この記事](/didactic-hockeypuck{% post_url /2016-01-23-sin-area %})参照），$$I_0=\frac{\pi}{2}$$である．
+
+よって
+
+|$$n$$が偶数のとき$$I_n=$$| $$\displaystyle\frac{n-1}{n}\cdots\frac{1}{2}I_0=\frac{n-1}{n}\cdots\frac{1}{2}\frac{\pi}{2}$$ |
+|$$n$$が奇数のとき$$I_n=$$| $$\displaystyle\frac{n-1}{n}\cdots\frac{2}{3}I_1=\frac{n-1}{n}\cdots\frac{2}{3}$$ |
